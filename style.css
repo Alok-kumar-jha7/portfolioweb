@@ -62,15 +62,36 @@ section {
 
 
 .navbar a {
+    position: relative;
     font-size: 1.7rem;
+    text-decoration: none;
     color: var(--text-color);  
-    margin-left:  4rem;
-    transition: .3s;
+    padding: 6px 20px;
+    transition: .5s;
+
+}
+.navbar a:hover{
+    color: var(--main-color);  
+    
+}
+.navbar a span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #1f242d;
+    z-index: -1;
+    border-bottom: 2px solid #0ef;
+    border-radius: 15px;
+    transform: scale(0) translateY(50px);
+    transition: .5s;
+
 }
 
-.navbar a:hover,
-.navbar a.active {
-    color: var(--main-color);  
+.navbar a:hover span{
+    transform: scale(1) translateY(0);
+    opacity: 1;
 }
 
 #menu-icon {
@@ -182,6 +203,8 @@ span {
    
 }
 
+
+
 .about-content  h2 {
   text-align: left;
   line-height: 1.2; 
@@ -190,7 +213,7 @@ span {
 .about-content p{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;  
-
+  
 }
 .heading{
     
@@ -236,7 +259,7 @@ span {
 
 .services-box h3 {
     
-    font-size: 2.6rem;
+    font-size: 2.8rem;
 }
 
 .services-box p {
@@ -292,7 +315,7 @@ span {
     text-align: center;
     padding: 0 4rem;
     transform: translateY(100%);
-    transition: .5s ease;
+    transition: .6s ease;
 }
 
 .portfolio-box:hover .portfolio-layer{
@@ -382,7 +405,10 @@ span {
 }
 
 .footer-text p {
+    display: flex;
     font-size: 1.6rem;
+    text-align: center;
+    justify-content: center;
 }
 
 .footer-iconTop a {
