@@ -46,6 +46,7 @@ body {
 }
 
 .logo {
+    padding: 0 35px;
     font-size: 2.5rem;
     color: var(--text-color);
     font-weight: 600;
@@ -54,10 +55,8 @@ body {
 
 section {
     min-height: 100vh;
-    padding: 10rem 4% 2rem;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center;   */
+    padding: 10rem 6% 2rem;
+ 
 }
 
 
@@ -126,6 +125,7 @@ span {
 
 .home-img img {
     width: 35vw; 
+    margin: 0 9px 0;
     animation: floatImage 4s ease-in-out infinite;
 }
 
