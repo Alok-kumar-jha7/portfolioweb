@@ -61,7 +61,7 @@ section {
 
 
 .navbar a {
-    position: relative;
+    position: absolute;
     font-size: 1.7rem;
     text-decoration: none;
     color: var(--text-color);  
