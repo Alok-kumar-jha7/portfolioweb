@@ -453,9 +453,6 @@ span {
    .header{
     padding: 2rem 3%;
    }
-   #menu-icon{
-    display: block;
-   }
 
    section {
     padding: 10rem 3% 2rem ;
@@ -484,7 +481,7 @@ span {
     }
     
     .navbar {
-        position: absolute;
+        position: relative;
         top: 100%;
         left: 0;
         height: 100%;
