@@ -267,7 +267,9 @@ span {
     font-size: 1.6rem; 
     margin: 1rem 0  3rem; 
 }
+  
 
+  
 
 .portfolio{
     background: var(--second-bg-color);
@@ -516,6 +518,7 @@ span {
         margin-bottom: 3rem;
 
     }
+
     .portfolio h2 {
         margin-bottom: 3rem;
 
