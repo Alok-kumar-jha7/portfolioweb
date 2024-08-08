@@ -411,8 +411,12 @@ span {
     text-align: center;
     justify-content: center;
 }
-
-.footer-iconTop a {
+.top{
+    position: fixed;
+    bottom: 2.1rem;
+    right: 1.3rem;
+}
+.top a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -422,11 +426,12 @@ span {
     transition: .5s ease;
 
 }
-.footer-iconTop a:hover{
+.top a:hover{
     box-shadow: 0 0 1rem var(--main-color);
 }
 
-.footer-iconTop a i {
+.top a i {
+
     font-size: 2.4rem;
     color: var(--second-bg-color);
 
