@@ -69,7 +69,8 @@ section {
     transition: .5s;
 
 }
-.navbar a:hover{
+.navbar a:hover
+{
     color: var(--main-color);  
     
 }
@@ -97,6 +98,8 @@ section {
     font-size: 3.6rem;
     color: var(--text-color);
     display: none;
+    float: right;
+    cursor: pointer;
 }
 
 .home {
@@ -450,6 +453,9 @@ span {
    .header{
     padding: 2rem 3%;
    }
+   #menu-icon{
+    display: block;
+   }
 
    section {
     padding: 10rem 3% 2rem ;
@@ -470,13 +476,18 @@ span {
 }
 
 @media (max-width: 786px) {
+    header{
+        padding: 0 20px;
+    }
     #menu-icon {
         display: block;
     }
+    
     .navbar {
-        position: relative;
+        position: absolute;
         top: 100%;
         left: 0;
+        height: 100%;
         width: 100%;
         padding: 1rem 3%;
         background: var(--bg-color);
