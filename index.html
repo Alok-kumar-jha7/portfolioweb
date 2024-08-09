@@ -42,8 +42,13 @@
                 <a href="https://github.com/Alok-kumar-jha7" target="_blank"><i class='bx bxl-github'></i></a>
                 <a href="https://www.linkedin.com/in/alok-kumar-jha-6b50871a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class='bx bxl-linkedin'></i></a>
             </div>
-            <a href="mycv.pdf" class="btn">Download CV</a>
-            
+            <a href="mycv.pdf"  id="btn" class="btn">Download CV</a>
+            <div class="popup" id="popup">
+                <img src="checkimage.png" alt="checked">
+                <h2>Thank You!</h2>
+                <p> Thank you for taking the time to download and review my CV. I look forward to the opportunity to discuss how my skills and experiences align with your needs.</p>
+                <button type="button" id="butn">OK</button>
+            </div>
         </div>
 
         <div class="home-img">
@@ -181,8 +186,8 @@
                 <input type="hidden" name="access_key" value="d3ea5420-ee92-493e-8596-52dcb2a3be12">
                 <input type="text" name="name" placeholder="Full Name" id="name" required>
                 <input type="email" name="email" placeholder="Email Address" id="mail" required>
-            <!-- <div class="input-box"> -->
-                <input type="number"  placeholder="Mobile Number" name="mobile" id="phone" autocomplete="email" required>                 <input type="text" name="" placeholder="Email Subject" id="Subject" required >
+                <input type="number"  placeholder="Mobile Number" name="mobile" id="phone" autocomplete="email" required>                 
+                <input type="text" name="subject" placeholder="Email Subject" id="Subject" required >
                 <textarea name="message" id=" message" cols="30" rows="10"  placeholder="Your message" required></textarea>
             </div>
                 <input type="submit" id="btn"  value="Send Message" class="btn">

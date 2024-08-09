@@ -56,4 +56,16 @@ const typed = new Typed('.multiple-text', {
     backDelay: 1000,
     loop: true
 });
-// contact email 
+// pop up
+let popUP=document.getElementById("btn");
+let okBtn=document.getElementById("butn");
+let openPop=document.getElementById("popup");
+
+popUP.addEventListener("click",openPopUp);
+function openPopUp(){
+    openPop.classList.add("open-popup");
+}
+okBtn.addEventListener("click",closePopUp);
+function closePopUp(){
+    openPop.classList.remove("open-popup");
+}
