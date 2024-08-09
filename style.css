@@ -61,7 +61,7 @@ section {
 
 
 .navbar a {
-    position: absolute;
+    position: relative;
     font-size: 1.7rem;
     text-decoration: none;
     color: var(--text-color);  
@@ -187,6 +187,7 @@ span {
 
 .btn:hover {
     box-shadow: none;  
+    cursor: pointer;
 
 }
 
@@ -241,17 +242,21 @@ span {
 
 .services-container .services-box {
     flex: 1 1 30rem;
+    position: relative;
     background: var(--second-bg-color);
-    padding: 3rem 2rem 4rem;
-    border-radius: 2rem;
+    padding: 3rem 2rem 4rem;    
+    border-radius: 2rem;    
     text-align: center;
-    border: .2rem solid var(--bg-color);  
-    transition: .5s ease;
+    border: .2rem solid var(--main-color);  
+    transition: .3s ease;    
+    box-shadow: 0 0 30px var(--main-color);
 }
 
 .services-container .services-box:hover {
     border-color: var(--main-color);    
     transform: scale(1.02);
+    
+  
 }
 
 .services-box i {
@@ -259,6 +264,7 @@ span {
     color: var(--main-color);  
 
 }
+
 
 .services-box h3 {
     
@@ -392,6 +398,13 @@ span {
     resize: none;
 }
 
+     input[type="number"]::-webkit-outer-spin-button,
+     input[type="number"]::-webkit-inner-spin-button{
+     -webkit-appearance: none;           
+     }
+
+
+
 .contact  form .btn {
 
     margin-top: 2rem;
@@ -402,9 +415,9 @@ span {
 
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+   
     padding: 2rem 9%;
     background: var(--second-bg-color);
 
@@ -453,7 +466,7 @@ span {
    .header{
     padding: 2rem 3%;
    }
-
+ 
    section {
     padding: 10rem 3% 2rem ;
 
