@@ -256,6 +256,7 @@ position: relative;
 
 .about-img img {
        width: 35vw;  
+       filter:drop-shadow( 0 0 30px var(--main-color));
 }
 .about {
     display: flex;
