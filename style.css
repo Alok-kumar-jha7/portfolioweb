@@ -393,7 +393,7 @@ position: relative;
 
 .portfolio-box:hover .portfolio-layer{
 
-    transform: translateX(0);
+    transform: translateY(0);
 } 
 
 .portfolio-layer h4{
