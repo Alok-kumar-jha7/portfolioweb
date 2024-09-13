@@ -387,7 +387,7 @@ position: relative;
     flex-direction: column;
     text-align: center;
     padding: 0 4rem;
-    transform: translateY(100%);
+    transform: translateX(100%);
     transition: .6s ease;
 }
 
