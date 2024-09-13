@@ -387,13 +387,13 @@ position: relative;
     flex-direction: column;
     text-align: center;
     padding: 0 4rem;
-    transform: translateY(100%);
+    transform: translateX(100%);
     transition: .6s ease;
 }
 
 .portfolio-box:hover .portfolio-layer{
 
-    transform: translateY(0);
+    transform: translateX(0);
 } 
 
 .portfolio-layer h4{
